@@ -1,10 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+
 .navbar{
     background-color:white;
+  
+}
+.nav-item {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
 }
 img{
     width: 100px;
     height: 100px;
 }
-.jumbotrom{
-    background-image: url();
+.jumbotron{
+    background-image: url(img4/1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 0%;
+
 }
+
+.display-4{
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    color: black;
+    text-shadow: 2px 8px 5px white;
+}
+.lead{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 8px 5px black;
+
+}
+p{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 8px 5px black;
+    font-variant: normal;
+}
+footer{
+    margin-top: -30px;
+    padding: 10px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+    background-color: red;
+    width: 100%;
+    height:auto;
+    color: black;
+    text-align: center;
+    text-transform: capitalize;
+    text-align: center;
+
+ }
+ footer i{
+    font-size: 20px;
+    color: white;
+    letter-spacing: 5px;
+
+ }
