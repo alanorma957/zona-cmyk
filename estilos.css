@@ -68,6 +68,10 @@
     width: 300px;
     height: 200px;
 }
+.fakeimg img{
+    width: 300px;
+    height: 200px;
+}
 .fon1{
     background-image: url(img4/9.jpg);
     width: 100%;
@@ -104,6 +108,10 @@
     }
     .fakeimg1 img{
         width: 700px;
+        height: auto;
+    }
+    .fakeimg img{
+        width: 300px;
         height: auto;
     }
     .fon1{
